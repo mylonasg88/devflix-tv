@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "channel5-tv",
-    "slug": "channel5-tv",
+    "name": "devflix-tv",
+    "slug": "devflix-tv",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./src/assets/icons/hexagon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage":  "./src/assets/icons/hexagon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.prorva.devflixtv"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7ef6780e-869d-4c55-921d-d3b43c2f1a0b"
+      }
     }
   }
 }
