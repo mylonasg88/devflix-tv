@@ -15,7 +15,7 @@ export default function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsReady(true);
-    }, 3000);
+    }, 500);
   }, []);
 
   if (!isReady) {

@@ -6,7 +6,14 @@ module.exports = {
   ],
   presets: [require('nativewind/preset')],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        'show-tile': '180px',
+      },
+      width: {
+        'show-tile': '320px',
+      }
+    },
   },
   plugins: [],
 }

@@ -3,6 +3,17 @@
   "compilerOptions": {
     "strict": true,
     "jsxImportSource": "nativewind",
-    "types": ["nativewind/types"]
+    "types": ["nativewind/types"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@screens/*": ["src/screens/*"],
+      "@navigation/*": ["src/navigation/*"],
+      "@containers/*": ["src/containers/*"],
+      "@styles/*": ["src/styles/*"],
+      "@api/*": ["src/api/*"],
+      "@assets/*": ["src/assets/*"]
+    }
   }
 }
